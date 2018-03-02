@@ -23,7 +23,7 @@ class ColorCell extends TCell{
 
         result = this.inner.draw(width,height);
         for (let i = 0; i<result.length ; i++)
-                result[i] = themec(result[i]);
+                result[i] = themebg(themec(result[i]));
         return result;
     }
 }

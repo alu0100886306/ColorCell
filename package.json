@@ -1,14 +1,8 @@
 {
-  "name": "colorcell",
+  "name": "@alu0100886306/colorcell",
   "version": "1.0.0",
-  "description": "Testing the pluging ColorCell for dtable",
-  "main": "main.js",
-  "scripts": {
-    "test": "rm -f salida.txt; (npm i --no-save --no-package-lock && node main.js | tee salida.txt) && (diff salida.txt expected.txt && echo 'OK!') || echo 'NOT OK' ",
-    "clean": "rm -fR salida.txt node_modules/ package-lock.json",
-    "version": "rm -f package-lock.json; npm la  '@ull-esit-dsi-1617/scapegoat'",
-    "update": "rm -f package-lock.json; npm update --no-save @ull-esit-dsi-1617/scapegoat"
-  },
+  "description": "Pluging ColorCell for dtable",
+  "main": "ColorCell.js",
   "keywords": [
     "npm",
     "packages",
@@ -17,7 +11,7 @@
   "author": "Christian Ramos Barrera",
   "license": "MIT",
   "dependencies": {
-    "@alu0100886306/dtable": "1.0.3",
+    "@alu0100886306/dtable": "latest",
     "chalk": "^2.3.1"
   },
   "devDependencies": {
